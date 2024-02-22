@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My first Web Site</title>
+  <link rel="icon" href="images/FIGMA 1.jpg">
+
+  <style>
+
+   ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 4px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+  </style>
+
+</head>
+
+<body style="text-align: center;margin: 100px;">
+  
+<h1>This is a Light</h1>
+<p>This is to turn on and off upon click</p>
+
+<script>
+  function light(sw){
+    var pic;
+    if (sw == 0){
+      pic="pic_bullboff.gif"
+    }else{
+      pic="pic_bulbon.gif"
+    }
+    document.getElementById('images').src =pic;
+  }
+</script>
+
+<img id="images" src="images/pic_bulboff.gif" width="100" height="180">
+  <p>
+    <button type="button" onclick="light(1)">Light On</button>
+    <button type="button" onclick="light(0)">Light Off</button>
+  </p>
+
+  <div class="w3-container w3-green">
+    <h1>W3Schools Demo</h1> 
+    <p>Resize this responsive page!</p> 
+  </div>
+  
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h2>London</h2>
+      <p>London is the capital city of England.</p>
+      <p>It is the most populous city in the United Kingdom,
+      with a metropolitan area of over 13 million inhabitants.</p>
+    </div>
+  
+    <div class="w3-third">
+      <h2>Paris</h2>
+      <p>Paris is the capital of France.</p> 
+      <p>The Paris area is one of the largest population centers in Europe,
+      with more than 12 million inhabitants.</p>
+    </div>
+  
+    <div class="w3-third">
+      <h2>Tokyo</h2>
+      <p>Tokyo is the capital of Japan.</p>
+      <p>It is the center of the Greater Tokyo Area,
+      and the most populous metropolitan area in the world.</p>
+    </div>
+  </div>
+
+  <img src="images/FIGMA 1.jpg" alt="This is my photo" style="border: 2px solid sandybrown; margin: 50px; float: left;">
+  <div>
+    <h1 style="font-family: Arial, Helvetica, sans-serif; font-size: 300%; text-align: center;color: rgb(245, 242, 241); background-color: blueviolet;padding: 50px;">This is An HTML Layout </h1>
+    <p style="border: 1px solid sandybrown; padding: 100px;background-image: url(images/FIGMA\ 1.jpg); background-repeat: no-repeat;background-size: cover;background-attachment: fixed;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt sequi modi <cite style="color: brown;">consequuntur ad odit voluptates</cite>voluptatum, eius blanditiis doloremque delectus aliquam alias in dolorem architecto eos, facere laudantium ea non.</p>
+     
+    
+    <address style="display: block; color: aquamarine;background-color: rgb(36, 44, 39); padding: 50px;">
+      Benjamin Hagan <br>
+      Post Office Box 6954<br>
+      Accra North<br>
+      <a href="mailto:benkhagan@gmail.com" style="color: azure;">Send me an Email</a>
+      
+     </address>
+
+<table>
+  <caption style="padding: 10px;">Monthly savings</caption>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Mail</td>
+    <td>Number</td>
+    <td>phone</td>
+  </tr>
+  <tr>
+    <td>Mail</td>
+    <td>Number</td>
+    <td>phone</td>
+  </tr>
+</table >
+
+<dl>
+<dt>Coffie</dt>
+<dd>-------Thsi is a Coffie</dd>
+</dl>
+
+  </div>
+
+<h2>Navigation Menu</h2>
+  <ul>
+<li><a href="#home"></a> Home</li>
+<li><a href="#about"></a> About Me</li>
+<li><a href="contact"></a> Contact</li>
+<li><a href="News"></a> News</li>
+  </ul>
+
+
+  <p style="padding: 10px;"><a href="#C4">Jump to Chapter 4</a></p>
+<p><a href="#C10">Jump to Chapter 10</a></p>
+<p><a href="#C23">Jump to Chapter 23</a></p>
+
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 3</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C4">Chapter 4</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 5</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 6</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 7</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 8</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 9</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C10">Chapter 10</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 11</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 12</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 13</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 14</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 15</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 16</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 17</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 18</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 19</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 20</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 21</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 22</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C23">Chapter 23</h2>
+<p>This chapter explains ba bla bla</p>
+</body>
+</html>
